@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <div class="wrapper create-pizza">
-<h1>create a new pizza</h1>
+<h1>create  new pizza</h1>
 <form action="/pizzas" method="POST">
 @csrf
 <label for="name">Your name:</label>
